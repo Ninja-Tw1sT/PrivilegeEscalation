@@ -1,0 +1,10 @@
+name: PrivilegeEscalation
+main: moe.mickey.spigot.pe.PrivilegeEscalation
+version: "1.0.0"
+
+commands:
+
+  markCommand:
+     description: 给手上的物品绑定命令
+     usage: /description <true|false> <command>
+     permission-message: 你没有权限使用这个命令
